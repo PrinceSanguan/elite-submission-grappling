@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavComponent />
+  <HeroComponent />
+  <VideoComponent />
+  <ClientComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavComponent from "./components/NavComponent.vue";
+import HeroComponent from "./components/HeroComponent.vue";
+import VideoComponent from "./components/VideoComponent.vue";
+import ClientComponent from "./components/ClientComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    NavComponent,
+    HeroComponent,
+    VideoComponent,
+    ClientComponent,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import "@/assets/style.css";
+@import "@/assets/responsive.css";
 </style>
