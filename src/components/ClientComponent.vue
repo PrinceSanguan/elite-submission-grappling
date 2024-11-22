@@ -35,7 +35,7 @@
                         will give students a deeper understanding over time.
                         Everyone I’ve met from the coaches to the students have
                         been friendly and welcoming and I look forward to coming
-                        back again in the future. Highly recommend SJA to anyone
+                        back again in the future. Highly recommend ESG to anyone
                         and everyone in the area.
                       </p>
                       <span>
