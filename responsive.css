@@ -11,6 +11,7 @@
 
   .custom_nav-container .navbar-nav {
     padding-top: 15px;
+    background-color: #000000;
   }
 
   .custom_nav-container .navbar-nav .nav-item .nav-link {
