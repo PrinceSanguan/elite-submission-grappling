@@ -81,14 +81,15 @@
   <div class="header_top">
     <div class="container-fluid header_top_container">
       <div class="contact_nav">
-        <a href="{{asset('contact')}}#location" aria-label="View our location">
+        <a href="https://maps.app.goo.gl/yq2NMFwC9ryWbHSj7" aria-label="View our location">
           <i class="fa fa-map-marker" aria-hidden="true"></i>
           <span>Gym: Crayford Weights & Fitness, Dartford DA1 4LB, UK</span>
         </a>
-        <a href="{{asset('contact')}}" aria-label="Email us">
+        <a href="mailto:elitejiujitsultd@gmail.com?subject=Inquiry&body=Hello, I have a question about..." aria-label="Email us">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           <span>elitejiujitsultd@gmail.com</span>
         </a>
+        
       </div>
       <div class="social_box">
         <a
@@ -345,11 +346,9 @@
                         coaching, and a flexible timetable.
                       </p>
                       <div class="btn-box">
-                        <a
-                          href="mailto:elitejiujitsultd@gmail.com"
-                          class="btn1"
-                        >
-                          Get Started
+                        <a href="mailto:elitejiujitsultd@gmail.com" aria-label="Email us">
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                          <span>elitejiujitsultd@gmail.com</span>
                         </a>
                       </div>
                     </div>
@@ -1747,11 +1746,11 @@
         const navLinks = navbarCollapse.querySelectorAll('.nav-link');
         let lastScrollTop = 0;
     
-        // Automatically collapse the navbar after clicking a nav link
+
         navLinks.forEach(link => {
           link.addEventListener('click', function () {
             if (navbarCollapse.classList.contains('show')) {
-              navbarToggler.click(); // Trigger the toggler to collapse the navbar
+              navbarToggler.click();
             }
           });
         });
@@ -1763,7 +1762,7 @@
             !navbarToggler.contains(event.target) &&
             navbarCollapse.classList.contains('show')
           ) {
-            navbarToggler.click(); // Trigger the toggler to collapse the navbar
+            navbarToggler.click();
           }
         });
     
@@ -1774,11 +1773,11 @@
           // Check if scrolling down
           if (scrollTop > lastScrollTop) {
             if (navbarCollapse.classList.contains('show')) {
-              navbarToggler.click(); // Trigger the toggler to collapse the navbar
+              navbarToggler.click();
             }
           }
     
-          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Ensure lastScrollTop is not negative
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
         });
       });
     </script>
