@@ -31,11 +31,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  margin-bottom: 2%;
   width: 100%;
   height: 100%;
-  background-image: url("/asset/images/hero-logo.webp");
-  background-size: 100% 110%;
-  background-position: 0% 57%;
+  background-image: url("/asset/images/hero-logo.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   filter: brightness(40%);
   background-color: #004445;
@@ -51,7 +52,7 @@ body {
     background-position: 70% 80%;
     background-repeat: no-repeat;
     filter: brightness(40%);
-    background-image: url("/asset/images/hero-logo.webp");
+    background-image: url("/asset/images/hero-logo.png");
     background-color: #000000;
   }
 
@@ -218,7 +219,7 @@ a:focus {
 }
 
 .navbar-brand:hover {
-  color: inherit;
+  color: #49dbff;
 }
 
 .custom_nav-container {
@@ -243,7 +244,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  color: #2c7873;
+  color: #49dbff;
 }
 
 .custom_nav-container .nav_search-btn {
